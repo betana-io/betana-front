@@ -1,11 +1,15 @@
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}'
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     height: {
       betana_header: '10%',
-      betana_body: '90%'
+      betana_body: '90%',
+      betana_menu: '10%',
+      betana_bill: '20%',
+      betana_central_content: '70%',
+      betana_profile_icon: '60px',
     },
     colors: {
       betana_navy_blue: '#11182B',
