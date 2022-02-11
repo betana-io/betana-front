@@ -18,6 +18,7 @@ module.exports = {
       betana_red: '#EB0000',
       betana_green: '#52BF41',
       betana_yellow: '#FFD501',
+      betana_white: '#FFD501',
     },
     extend: {},
   },

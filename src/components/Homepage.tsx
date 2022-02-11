@@ -4,7 +4,7 @@ export function Homepage(): JSX.Element {
 
     return(
         <div className={'grid grid-rows-2 h-full'}>
-            <div className={'grid grid-cols-3 bg-betana_navy_blue h-betana_header'}>
+            <div className={'grid grid-cols-3 bg-betana_navy_blue h-full'}>
                 <div className={''}>
                     <a href="">Betana</a>
                 </div>
@@ -24,7 +24,7 @@ export function Homepage(): JSX.Element {
             </div>
             
             <div className={'grid grid-cols-3 h-betana_body'}>
-                <div className={'bg-betana_navy_blue w-betana_menu'}>
+                <div className={'bg-betana_navy_blue h-betana_menu'}>
                     <div>Navigation</div>
                     <nav>
                         <div>
@@ -44,8 +44,8 @@ export function Homepage(): JSX.Element {
                         </div>
                     </nav>
                 </div>
-                <div className={'bg-betana_sky_blue w-betana_central_content'}></div>
-                <div className={'bg-betana_navy_blue w-betana_bill'}></div>
+                <div className={'bg-betana_sky_blue h-betana_central_content'}></div>
+                <div className={'bg-betana_navy_blue h-betana_bill'}></div>
             </div>
         </div>
     );
