@@ -1,11 +1,13 @@
-import { Homepage } from './components/Homepage';
+import { Navbar, Ticket } from './components';
 
 function App(): JSX.Element {
 
   return (
-    <div className={"App h-screen"}>
-      <Homepage></Homepage>
-    </div>
+    <>
+      <Navbar></Navbar>
+      
+      <Ticket></Ticket>
+    </>
   );
   
 }
