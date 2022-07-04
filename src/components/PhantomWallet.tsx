@@ -85,7 +85,7 @@ export function PhantomWallet(): JSX.Element {
             {provider && walletKey && (
                 <div>
                     <button
-                        className="bg-red-700 hover:bg-betana_red text-white font-semibold py-2 px-12 rounded-md"
+                        className="bg-red-700 hover:bg-betana_red text-white font-semibold py-2 px-5 rounded-md"
                         onClick={disconnectWallet}
                     >
                         Disconnect

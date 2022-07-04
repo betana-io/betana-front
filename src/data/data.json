@@ -1,0 +1,73 @@
+[
+    { 
+        "id": 1, 
+        "home_team": {
+            "name" : "Paris-SG",
+            "icon" : "https://upload.wikimedia.org/wikipedia/fr/7/76/Paris_Saint-Germain_logo.png"
+        }, 
+        "visitor_team": {
+            "name" : "Réal",
+            "icon" : "https://upload.wikimedia.org/wikipedia/fr/thumb/c/c7/Logo_Real_Madrid.svg/1200px-Logo_Real_Madrid.svg.png"
+        },
+        "odds" : {
+            "home_team" : 1.75,
+            "draw" : 2,
+            "visitor_team" : 1.50
+        },
+        "scorers" : [
+            {
+                "name" : "Marco Verratti",
+                "goal_time" : ["44'", "67'"]
+            },
+            {
+                "name" : "Lionel Messi",
+                "goal_time" : ["92'"]
+            }
+        ],
+        "statut" : "not_started",
+        "league" : "Champions League",
+        "start_date" : "08/05/2022",
+        "start_time" : "21:00",
+        "additionnal_time" : "2"
+    },
+    { 
+        "id": 2, 
+        "home_team": {
+            "name" : "Chelsea",
+            "icon" : "https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Logo_Chelsea.svg/2048px-Logo_Chelsea.svg.png"
+        }, 
+        "visitor_team": {
+            "name" : "Tottenham",
+            "icon" : "https://upload.wikimedia.org/wikipedia/fr/thumb/5/5c/Logo_Tottenham_Hotspur.svg/1200px-Logo_Tottenham_Hotspur.svg.png"
+        },
+        "odds" : {
+            "home_team" : 1.3,
+            "draw" : 1,
+            "visitor_team" : 2.15
+        },
+        "statut" : "not_started",
+        "league" : "Premier League",
+        "start_date" : "08/06/2022",
+        "start_time" : "22:00"
+    },
+    { 
+        "id": 3, 
+        "home_team": {
+            "name" : "Chelsea",
+            "icon" : "https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Logo_Chelsea.svg/2048px-Logo_Chelsea.svg.png"
+        }, 
+        "visitor_team": {
+            "name" : "Tottenham",
+            "icon" : "https://upload.wikimedia.org/wikipedia/fr/thumb/5/5c/Logo_Tottenham_Hotspur.svg/1200px-Logo_Tottenham_Hotspur.svg.png"
+        },
+        "odds" : {
+            "home_team" : 1.3,
+            "draw" : 1,
+            "visitor_team" : 2.15
+        },
+        "statut" : "not_started",
+        "league" : "Premier League",
+        "start_date" : "08/06/2022",
+        "start_time" : "22:00"
+    }
+]

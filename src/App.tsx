@@ -1,12 +1,13 @@
-import { Navbar, Ticket } from './components';
+import { Navbar, Home } from './components';
 
 function App(): JSX.Element {
 
   return (
     <>
-      <Navbar></Navbar>
-      
-      <Ticket></Ticket>
+      <div className='flex bg-betana_sky_blue'>
+        <Navbar></Navbar>
+        <Home></Home>
+      </div>
     </>
   );
   
